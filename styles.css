@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+/* HEADER */
+
+header {
+    margin: 0;
+    position: fixed;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    max-height: 100px;
+}
+
+.header-logo {
+    display: inline-flex;
+    width: 1000px;
+}
+
+#header-img {
+    width: 130px;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    color: #000;
+    text-decoration: none;  
+}
+
+.nav-link:hover {
+    background-color: rgb(168, 168, 168);
+    color: white;
+}
+
+/* MAIN TOP*/
+
+main {
+    padding-top: 110px;
+}
+
+.main-top {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.email {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    height: 30px;
+    width: 130px;
+    background-color: #F1C40F;  
+    border: none;
+    margin-bottom: 20px;
+}
+
+.submit:hover {
+    background-color: #FF8C00;
+}
+
+/* MAIN MIDDLE */
+
+.main-middle {
+    display: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    padding-bottom: 35px;
+}
+
+.text {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+
+.description {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    color: #F1C40F;
+}
+
+/* MAIN BOTTOM */
+
+.container {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+.ofertas {
+    width: 300px;
+    border: solid 1px;
+}
+
+.guitars {
+    font-size: 25px;
+    text-align: center;
+    background-color: #b9a1a149;
+}
+
+.precio {
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 0 5px 20px;
+    font-size: 18px;
+}
+
+.compra {
+    display: flex;
+    margin: 10px auto;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1C40F;
+}
+
+.compra:hover {
+    background-color: #FF8C00;
+}
+
+/* FOOTER */
+
+footer {
+    width: 75%;
+    display: row;
+    margin: 50px auto 0;
+    justify-content: end;
+    align-items: center;
+    background-color: #bababa65;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    color: #6a6a6a;
+    margin: 10px;
+}
+
+@media (max-width: 100px) {
+    body {
+        background-color: aqua;
+    }
+}
